@@ -1,0 +1,20 @@
+2010-03-21 Arnd Messer	<typo3@civit.de>
+
+	* Complete rewrite of FancyBox Plugin for TYPO3 4.3.x
+	* New Feature: Show Flash Videos, f.e. a YouTube Video, in FancyBox
+	* Update FancyBox Version to 1.3.1
+	* Update jQuery Version to 1.4.2
+	* Integration of jQuery Plugins Mousewheel (v. 3.0.2) and Easing (v. 1.3)
+	* Update version to 0.0.2
+
+
+2009-11-24 Arnd Messer	<typo3@civit.de>
+
+	* first implementation of FancyBox 1.2.x
+	* update version to 0.0.1
+
+
+2009-11-23 Arnd Messer  <typo3@civit.de>
+
+	* initial code generated with kickstarter
+	

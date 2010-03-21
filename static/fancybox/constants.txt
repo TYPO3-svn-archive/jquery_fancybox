@@ -1,0 +1,69 @@
+plugin.jquery_fancybox {
+
+	includeFancyBox = 1
+
+	# cat=jquery_fancybox//o1; type=options[titleText,altText,imagecaption]; label= Title Field: Which tt_content field to use as title inside/outside the FancyBox.
+	titleField = titleText
+	
+	# cat=jquery_fancybox/dims/d1; type=int+; label= jQuery FancyBox Max Image Width: Defines the maxwidth of the image shown in the FancyBox.
+	maxW = 800
+	
+	# cat=jquery_fancybox/dims/d2; type=int+; label= jQuery FancyBox Max Image Height: Defines the maxheight of the image shown in the FancyBox.
+	maxH = 600
+	
+	options {
+		# Space between FancyBox wrapper and content
+		padding = 5
+
+		# Space between viewport and FancyBox wrapper
+		margin = 20
+		
+		# Width for content types 'iframe' and 'swf'. Also set for inline content if 'autoDimensions' is set to 'false'
+		width = 640
+		
+		# Height for content types 'iframe' and 'swf'. Also set for inline content if 'autoDimensions' is set to 'false'
+		height = 386
+
+		# When true, FancyBox is centered while scrolling page
+		centerOnScroll = false
+
+		# Toggle if clicking the overlay should close FancyBox
+		hideOnOverlayClick = true
+
+		# Toggle if clicking the content should close FancyBox
+		hideOnContentClick = false
+
+		# Toggle overlay
+		overlayShow = true
+
+		# Opacity of the overlay (from 0 to 1; default - 0.3)
+		overlayOpacity = 0.3
+
+		# Color of the overlay
+		overlayColor = #666
+
+		# Toggle title
+		titleShow = true
+
+		# The position of title. Can be set to 'outside', 'inside' or 'over'
+		titlePosition = outside
+
+		# The transition type. Can be set to 'elastic', 'fade' or 'none'
+		transitionIn = fade
+
+		# The transition type. Can be set to 'elastic', 'fade' or 'none'
+		transitionOut = fade
+		
+		# Speed of the fade and elastic transitions, in milliseconds
+		speedIn = 300
+
+		# Speed of the fade and elastic transitions, in milliseconds
+		speedOut = 300
+
+		# Speed of resizing when changing gallery items, in milliseconds
+		changeSpeed = 300
+
+		# Speed of the content fading while changing gallery items
+		changeFade = fast
+	}
+}
